@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Four Seasons Category Viewer</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Four Seasons Category Viewer</h1>
+      <p>Heating, Air Conditioning, Plumbing, and Electric</p>
+      <p class="subtitle">Built by Zuper Team</p>
+    </div>
+
+    <div class="controls">
+      <div class="form-group">
+        <label for="region-select">Select Region:</label>
+        <select id="region-select">
+          <option value="">Choose a region...</option>
+          <option value="staging">Zuper Staging</option>
+          <option value="us-east-1">Zuper Live</option>
+        </select>
+      </div>
+      <button class="fetch-btn" id="fetch-btn">Fetch Categories</button>
+    </div>
+
+    <div id="content">
+      <div class="empty-state">
+        <h3>Ready to fetch categories</h3>
+        <p>Select a region and click "Fetch Categories" to get started</p>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
