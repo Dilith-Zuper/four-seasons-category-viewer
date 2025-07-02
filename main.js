@@ -21,13 +21,26 @@ async function fetchCategories() {
   `;
 
   try {
-    const response = await fetch('/api/webhook/4af052e8-ce83-4fe9-a2f6-919703ee50a4', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify({ region: selectedRegion })
-    });
+    // const response = await fetch('/api/webhook/4af052e8-ce83-4fe9-a2f6-919703ee50a4', {
+    //   method: 'POST',
+    //   headers: {
+    //     'Content-Type': 'application/json'
+    //   },
+    //   body: JSON.stringify({ region: selectedRegion })
+    // });
+
+    const webhookUrl = location.hostname === 'localhost'
+  ? '/api/webhook/4af052e8-ce83-4fe9-a2f6-919703ee50a4'
+  : 'https://internalwf-dev.zuper.co/webhook/4af052e8-ce83-4fe9-a2f6-919703ee50a4';
+
+const response = await fetch(webhookUrl, {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json'
+  },
+  body: JSON.stringify({ region: selectedRegion })
+});
+
 
     if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
 
