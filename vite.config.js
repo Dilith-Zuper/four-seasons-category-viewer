@@ -1,6 +1,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
+  base: './', // ✅ Important for Netlify to load assets correctly
+
   server: {
     proxy: {
       '/api': {
