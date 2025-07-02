@@ -67,6 +67,7 @@ function displayCategories(data) {
     'project_categories': 'Project Categories',
     'customer_categories': 'Customer Categories',
     'part_categories': 'Part Categories',
+     'product_locations': 'Product Locations',
     'asset_categories': 'Asset Categories',
     'payment_modes': 'Payment Modes',
     'payment_terms': 'Payment Terms',
