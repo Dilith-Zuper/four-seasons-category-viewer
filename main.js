@@ -120,7 +120,7 @@ function displayCategories(data) {
                 <thead>
                     <tr>
                         <th style="width: 40%;">Category Name</th>
-                        <th style="width: 60%;">UUID</th>
+                        <th style="width: 60%;">UID</th>
                     </tr>
                 </thead>
                 <tbody>
