@@ -84,7 +84,7 @@ function displayCategories(data) {
     //       <h2 class="category-title">${categoryMappings[key]}</h2>
     //       <table class="category-table">
     //         <thead>
-    //           <tr><th>Category Name</th><th>UUID</th></tr>
+    //           <tr><th>Category Name</th><th>UID</th></tr>
     //         </thead><tbody>
     //   `;
 
