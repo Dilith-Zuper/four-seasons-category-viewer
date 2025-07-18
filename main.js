@@ -71,7 +71,8 @@ function displayCategories(data) {
     'asset_categories': 'Asset Categories',
     'payment_modes': 'Payment Modes',
     'payment_terms': 'Payment Terms',
-    'service_tasks': 'Service Tasks'
+    'service_tasks': 'Service Tasks',
+    'timeoff_types':'Timeoff Types'
   };
 
   let html = '<div class="results">';
