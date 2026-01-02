@@ -73,7 +73,9 @@ function displayCategories(data) {
     'payment_terms': 'Payment Terms',
     'service_tasks': 'Service Tasks',
     'timeoff_types':'Timeoff Types',
-    'teams':'Teams'
+    'teams':'Teams',
+    'skills':'Skills',
+    'access_role':' USER ACCESS ROLES '
   };
 
   let html = '<div class="results">';
