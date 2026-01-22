@@ -75,7 +75,8 @@ function displayCategories(data) {
     'timeoff_types':'Timeoff Types',
     'teams':'Teams',
     'skills':'Skills',
-    'access_role':' USER ACCESS ROLES '
+    'access_role':' USER ACCESS ROLES ',
+    'trade_type':' Trade types '
   };
 
   let html = '<div class="results">';
