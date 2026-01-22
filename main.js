@@ -76,7 +76,7 @@ function displayCategories(data) {
     'teams':'Teams',
     'skills':'Skills',
     'access_role':' USER ACCESS ROLES ',
-    'trade_type':' Trade types '
+    'trade_types':' Trade types '
   };
 
   let html = '<div class="results">';
